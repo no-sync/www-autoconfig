@@ -42,7 +42,7 @@
     <outgoingServer type="smtp">
       <hostname>smtp.stackmail.com</hostname>
       <port>587</port>
-      <socketType>STARTSSL</socketType>
+      <socketType>STARTTLS</socketType>
       <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
