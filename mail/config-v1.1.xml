@@ -28,7 +28,7 @@
     <incomingServer type="pop3">
       <hostname>pop3.stackmail.com</hostname>
       <port>110</port>
-      <socketType>STARTTLS</socketType>
+      <socketType>plain</socketType>
       <authentication>password-cleartext</authentication>
       <username>%EMAILADDRESS%</username>
     </incomingServer>
