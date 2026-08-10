@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <clientConfig version="1.1">
   <emailProvider id="stackmail.com">
-    <domain>novilogy.com</domain>
-    <displayName>%EMAILADDRESS%</displayName>
-    <displayShortName>%EMAILADDRESS%</displayShortName>
+    <domain>stackmail.com</domain>
+    <displayName>stackmail.com</displayName>
+    <displayShortName>stackmail.com</displayShortName>
     <incomingServer type="imap">
       <hostname>imap.stackmail.com</hostname>
       <port>993</port>
