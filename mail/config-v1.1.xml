@@ -1,5 +1,5 @@
 <clientConfig version="1.1">
- <emailProvider id="tomato.me.uk">
+ <emailProvider id="stackmail.com">
    <domain>tomato.me.uk</domain>
    <displayName>%EMAILADDRESS%</displayName>
    <incomingServer type="imap">
