@@ -1,37 +1,30 @@
 <clientConfig version="1.1">
  <emailProvider id="mailbig.net">
-   <domain>tomato.me.uk</domain>
+   <domain>novilogy.com</domain>
    <displayName>%EMAILADDRESS%</displayName>
    <incomingServer type="imap">
-     <hostname>m-imap.easymailcontrol.com</hostname>
+     <hostname>imap.yandex.com</hostname>
      <port>993</port>
      <socketType>SSL</socketType>
      <username>%EMAILADDRESS%</username>
      <authentication>password-cleartext</authentication>
    </incomingServer>
-   <incomingServer type="imap">
-     <hostname>m-imap.easymailcontrol.com</hostname>
-     <port>143</port>
-     <socketType>STARTTLS</socketType>
-     <username>%EMAILADDRESS%</username>
-     <authentication>password-cleartext</authentication>
-   </incomingServer>
    <incomingServer type="pop3">
-     <hostname>m-pop.easymailcontrol.com</hostname>
+     <hostname>pop.yandex.com</hostname>
      <port>995</port>
      <socketType>SSL</socketType>
      <username>%EMAILADDRESS%</username>
      <authentication>password-cleartext</authentication>
    </incomingServer>
-   <incomingServer type="pop3">
-     <hostname>m-pop.easymailcontrol.com</hostname>
-     <port>110</port>
-     <socketType>STARTTLS</socketType>
+   <outgoingServer type="smtp">
+     <hostname>smtp.yandex.com</hostname>
+     <port>465</port>
+     <socketType>SSL</socketType>
      <username>%EMAILADDRESS%</username>
      <authentication>password-cleartext</authentication>
-   </incomingServer>
-   <outgoingServer type="smtp">
-     <hostname>m-smtp.easymailcontrol.com</hostname>
+   </outgoingServer>
+     <outgoingServer type="smtp">
+     <hostname>smtp.yandex.com</hostname>
      <port>587</port>
      <socketType>STARTTLS</socketType>
      <username>%EMAILADDRESS%</username>
