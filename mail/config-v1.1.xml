@@ -1,6 +1,6 @@
 <clientConfig version="1.1">
- <emailProvider id="mailbig.net">
-   <domain>novilogy.com</domain>
+ <emailProvider id="yandex.net">
+   <domain>tomato.me.uk</domain>
    <displayName>%EMAILADDRESS%</displayName>
    <incomingServer type="imap">
      <hostname>imap.yandex.com</hostname>
